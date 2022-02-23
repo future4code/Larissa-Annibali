@@ -39,8 +39,7 @@ const pessoaEu = {
 
  //saída
 
- console.log(`Eu sou ${pessoaEu.nome} mas você pode me chamar de: 
- ${pessoaEu.apelidos[0]}, ${pessoaEu.apelidos[1]} ou ${pessoaEu.apelidos[2]}.`)
+ console.log(`Eu sou ${pessoaEu.nome} mas você pode me chamar de: ${pessoaEu.apelidos[0]}, ${pessoaEu.apelidos[1]} ou ${pessoaEu.apelidos[2]}.`)
 
 
 
@@ -59,12 +58,39 @@ const pessoaEu = {
  console.log(`Eu sou ${pessoaEu2.nome} mas você pode me chamar de: ${pessoaEu2.apelidos}.`)
 
  /*2. Resolva os passos à seguir: 
- a) Crie dois objetos diferentes com as seguintes propriedades: nome, idade e profissão.
- b) Escreva uma função que receba esses objetos e retorne um array com as seguintes informações:
+ a) Crie dois objetos diferentes com as seguintes propriedades: nome, idade e profissão.*/
+
+ const pessoasProfissoes = {
+     nome: 'Kalista',
+     idade: '200',
+     profissao: 'adcarry'
+    } 
+//lolzeira que vive em mim nasceu de novo
+  const pessoasProfissoes2 =   {
+      nome: 'Kayn',
+      idade:'26',
+      profissao: 'tank'
+
+  }
+
+  
+ 
+
+ /*b) Escreva uma função que receba esses objetos e retorne um array com as seguintes informações:
 
 1. O valor de `nome`
 2. O numero de caracteres do valor `nome`
 3. O valor de `idade`
 4. O valor de `profissão`
 5. O numero de caracteres do valor `profissão`*/
+
+function champions (pessoasProfissoes, pessoasProfissoes2) {
+    return array1, array2}
+  
+   { const array1 = ['Kalista', 7, 200, 'adcarry', 7]
+    console.log(array1)
+  
+    const array2 = ['Kayn', 4, 26, 'tank', 4]
+    console.log (array2)
+}
 
