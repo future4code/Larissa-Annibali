@@ -1,15 +1,42 @@
 //Exercícios de interpretação de código
 
+/*1. Será impresso no console os nomes (itens), os apelidos (index) e os arrays que foram guardadas 
+as informações, o que faz com que tudo seja impresso.*/
+
+/*2. No segundo console será impresso apenas os nomes armazenados, uma vez que é dado o return com o 
+map no novo array/*
+
+/*3.Vai ser impresso no console tudo que não é igual a 'Chijo", ou seja, apenas as duas outras linhas.*/
+
+//Exercícios de escrita de código
+
 /*1. Dado o seguinte array de cachorrinhos que são clientes de um pet shop, realize 
 as operações pedidas nos itens abaixo utilizando as funções de array map e filter:*/
 
-const pets = [
-  { nome: "Lupin", raca: "Salsicha" },
-  { nome: "Polly", raca: "Lhasa Apso" },
-  { nome: "Madame", raca: "Poodle" },
-  { nome: "Quentinho", raca: "Salsicha" },
-  { nome: "Fluffy", raca: "Poodle" },
-  { nome: "Caramelo", raca: "Vira-lata" },
+const pets = [{
+  nome: "Lupin",
+  raca: "Salsicha"
+},
+{
+  nome: "Polly",
+  raca: "Lhasa Apso"
+},
+{
+  nome: "Madame",
+  raca: "Poodle"
+},
+{
+  nome: "Quentinho",
+  raca: "Salsicha"
+},
+{
+  nome: "Fluffy",
+  raca: "Poodle"
+},
+{
+  nome: "Caramelo",
+  raca: "Vira-lata"
+},
 ];
 //a)
 const dog0 = "Lupin";
@@ -55,17 +82,56 @@ console.log(desconto);
 /*2. Dado o seguinte array de produtos, 
 realize as operações pedidas nos itens abaixo utilizando as funções de array map e filter:*/
 
-const produtos = [
-  { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
-  { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
-  { nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
-  { nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
-  { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
-  { nome: "Cândida", categoria: "Limpeza", preco: 3.3 },
-  { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
-  { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
-  { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
-  { nome: "Sabão em Pó Ypê", categoria: "Limpeza", preco: 10.8 },
+const produtos = [{
+  nome: "Alface Lavada",
+  categoria: "Hortifruti",
+  preco: 2.5
+},
+{
+  nome: "Guaraná 2l",
+  categoria: "Bebidas",
+  preco: 7.8
+},
+{
+  nome: "Veja Multiuso",
+  categoria: "Limpeza",
+  preco: 12.6
+},
+{
+  nome: "Dúzia de Banana",
+  categoria: "Hortifruti",
+  preco: 5.7
+},
+{
+  nome: "Leite",
+  categoria: "Bebidas",
+  preco: 2.99
+},
+{
+  nome: "Cândida",
+  categoria: "Limpeza",
+  preco: 3.3
+},
+{
+  nome: "Detergente Ypê",
+  categoria: "Limpeza",
+  preco: 2.2
+},
+{
+  nome: "Vinho Tinto",
+  categoria: "Bebidas",
+  preco: 55
+},
+{
+  nome: "Berinjela kg",
+  categoria: "Hortifruti",
+  preco: 8.99
+},
+{
+  nome: "Sabão em Pó Ypê",
+  categoria: "Limpeza",
+  preco: 10.8
+},
 ];
 
 //a)
@@ -118,4 +184,44 @@ const promo1 = produtos.filter((promo1) => {
 
 console.log(promo1);
 
-//d))
+//d)
+const produto1 = produtos.filter((produto1) => produto1.nome.includes("Ypê"));
+console.log(produto1);
+
+//e
+
+const produtosYpe = produtos
+  .filter((item) => item.nome.includes("Ypê"))
+  .map((item) => {
+    return `Compre ${item.nome} por ${item.preco}!`
+  });
+
+console.log(produtosYpe)
+
+//Desafio
+
+/*1. a) Dado o seguinte array de pokémons, realize as operações pedidas nos itens abaixo:*/
+
+const pokemons = [
+  { nome: "Bulbasaur", tipo: "grama" },
+  { nome: "Bellsprout", tipo: "grama" },
+  { nome: "Charmander", tipo: "fogo" },
+  { nome: "Vulpix", tipo: "fogo" },
+  { nome: "Squirtle", tipo: "água" },
+  { nome: "Psyduck", tipo: "água" },
+]
+
+const temosQuePegar = [ 'Bulbasaur', 'Bellsprout', 'Charmander', 'Vulpix', 'Squirtle', 'Psyduck'];
+
+temosQuePegar.sort();
+
+console.log(temosQuePegar)
+
+//b)
+
+const pegalosEuTentarei = new Set ()
+pokemons.map((pokemons)=> { pegalosEuTentarei.add(pokemons.tipo)
+
+})
+
+console.log(pegalosEuTentarei)
