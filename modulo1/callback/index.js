@@ -15,27 +15,27 @@ as operações pedidas nos itens abaixo utilizando as funções de array map e f
 
 const pets = [{
   nome: "Lupin",
-  raca: "Salsicha"
+  raca: "Salsicha",
 },
 {
   nome: "Polly",
-  raca: "Lhasa Apso"
+  raca: "Lhasa Apso",
 },
 {
   nome: "Madame",
-  raca: "Poodle"
+  raca: "Poodle",
 },
 {
   nome: "Quentinho",
-  raca: "Salsicha"
+  raca: "Salsicha",
 },
 {
   nome: "Fluffy",
-  raca: "Poodle"
+  raca: "Poodle",
 },
 {
   nome: "Caramelo",
-  raca: "Vira-lata"
+  raca: "Vira-lata",
 },
 ];
 //a)
@@ -85,52 +85,52 @@ realize as operações pedidas nos itens abaixo utilizando as funções de array
 const produtos = [{
   nome: "Alface Lavada",
   categoria: "Hortifruti",
-  preco: 2.5
+  preco: 2.5,
 },
 {
   nome: "Guaraná 2l",
   categoria: "Bebidas",
-  preco: 7.8
+  preco: 7.8,
 },
 {
   nome: "Veja Multiuso",
   categoria: "Limpeza",
-  preco: 12.6
+  preco: 12.6,
 },
 {
   nome: "Dúzia de Banana",
   categoria: "Hortifruti",
-  preco: 5.7
+  preco: 5.7,
 },
 {
   nome: "Leite",
   categoria: "Bebidas",
-  preco: 2.99
+  preco: 2.99,
 },
 {
   nome: "Cândida",
   categoria: "Limpeza",
-  preco: 3.3
+  preco: 3.3,
 },
 {
   nome: "Detergente Ypê",
   categoria: "Limpeza",
-  preco: 2.2
+  preco: 2.2,
 },
 {
   nome: "Vinho Tinto",
   categoria: "Bebidas",
-  preco: 55
+  preco: 55,
 },
 {
   nome: "Berinjela kg",
   categoria: "Hortifruti",
-  preco: 8.99
+  preco: 8.99,
 },
 {
   nome: "Sabão em Pó Ypê",
   categoria: "Limpeza",
-  preco: 10.8
+  preco: 10.8,
 },
 ];
 
@@ -193,35 +193,59 @@ console.log(produto1);
 const produtosYpe = produtos
   .filter((item) => item.nome.includes("Ypê"))
   .map((item) => {
-    return `Compre ${item.nome} por ${item.preco}!`
+    return `Compre ${item.nome} por ${item.preco}!`;
   });
 
-console.log(produtosYpe)
+console.log(produtosYpe);
 
 //Desafio
 
 /*1. a) Dado o seguinte array de pokémons, realize as operações pedidas nos itens abaixo:*/
 
-const pokemons = [
-  { nome: "Bulbasaur", tipo: "grama" },
-  { nome: "Bellsprout", tipo: "grama" },
-  { nome: "Charmander", tipo: "fogo" },
-  { nome: "Vulpix", tipo: "fogo" },
-  { nome: "Squirtle", tipo: "água" },
-  { nome: "Psyduck", tipo: "água" },
-]
+const pokemons = [{
+  nome: "Bulbasaur",
+  tipo: "grama"
+},
+{
+  nome: "Bellsprout",
+  tipo: "grama"
+},
+{
+  nome: "Charmander",
+  tipo: "fogo"
+},
+{
+  nome: "Vulpix",
+  tipo: "fogo"
+},
+{
+  nome: "Squirtle",
+  tipo: "água"
+},
+{
+  nome: "Psyduck",
+  tipo: "água"
+},
+];
 
-const temosQuePegar = [ 'Bulbasaur', 'Bellsprout', 'Charmander', 'Vulpix', 'Squirtle', 'Psyduck'];
+const temosQuePegar = [
+  "Bulbasaur",
+  "Bellsprout",
+  "Charmander",
+  "Vulpix",
+  "Squirtle",
+  "Psyduck",
+];
 
 temosQuePegar.sort();
 
-console.log(temosQuePegar)
+console.log(temosQuePegar);
 
 //b)
 
-const pegalosEuTentarei = new Set ()
-pokemons.map((pokemons)=> { pegalosEuTentarei.add(pokemons.tipo)
+const pegalosEuTentarei = new Set();
+pokemons.map((pokemons) => {
+  pegalosEuTentarei.add(pokemons.tipo);
+});
 
-})
-
-console.log(pegalosEuTentarei)
+console.log(pegalosEuTentarei);
