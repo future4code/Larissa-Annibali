@@ -10,20 +10,25 @@
  * 
  * 
  */
-const user1 = [];
-const user2 = [];
-const carta = comprarCarta();
+console.log("Boas vindas ao jogo de Blackjack!")
 
-const welcomeMessage = 'Boas vindas ao jogo de Blackjack!'
-console.log(welcomeMessage)
+if (confirm("Quer iniciar uma nova rodada? Sim ou não?")) {
 
-const joyGame = confirm('Quer iniciar uma nova rodada? Sim ou não?');
-console.log(joyGame)
-if (!joyGame) {
-   alert('O jogo Acabou');
+   const userCard1 = comprarCarta()
+   const userCard2 = comprarCarta()
+   const pcCard1 = comprarCarta()
+   const pcCard2 = comprarCarta()
+   const scoreUser = userCard1.valor + userCard2.valor
+   const scorePc = pcCard1.valor + pcCard2.valor
+   console.log(`Usuário - cartas ${userCard1.texto}, ${userCard2.texto} - pontuação: ${scoreUser}`)
+   console.log(`Computador - cartas ${pcCard1.texto}, ${pcCard2.texto} - pontuação: ${scorePc}`)
 
+} else if (scoreUser === scorePc) {
+   console.log('Empate')
+} else if (scoreUser > scorePc) {
+   console.log('O usuário ganhou!')
+} else if (scoreUser < scorePc) {
+   console.log('O Computador ganhou!')
 } else {
-   joyGame === true;
-
-   console.log(`Usuário - carta, ${carta.texto}, ${carta.texto}, ${carta.valor}, ${carta.valor}`)
+   console.log('O jogo acabou')
 }
