@@ -10,3 +10,20 @@
  * 
  * 
  */
+const user1 = [];
+const user2 = [];
+const carta = comprarCarta();
+
+const welcomeMessage = 'Boas vindas ao jogo de Blackjack!'
+console.log(welcomeMessage)
+
+const joyGame = confirm('Quer iniciar uma nova rodada? Sim ou não?');
+console.log(joyGame)
+if (!joyGame) {
+   alert('O jogo Acabou');
+
+} else {
+   joyGame === true;
+
+   console.log(`Usuário - carta, ${carta.texto}, ${carta.texto}, ${carta.valor}, ${carta.valor}`)
+}
