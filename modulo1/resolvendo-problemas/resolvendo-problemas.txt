@@ -1,0 +1,29 @@
+<b>Os 7 passos fundamentais para a resolução de problemas e como eles podem nos ajudar a solucionar nossos 
+desafios de programação.</b>
+
+Os passos fundamentais para resolução de problemas é, primeiramente, ter <i>atenção no enunciado</i>, uma vez que
+se não lermos e prestarmos atenção, não conseguimos fazer a <b>elaboração do processo</b> para tirar <u>informações 
+relevantes</u> para formentar um projeto ou um pedido. Então, depois de um <b>bom fluxograma</b>, formação de conceitos
+e escopos começaremos a pensar no inicio do código.
+
+Então é onde começaremos a entender a situação, <i>montando entradas e saídas</i>, sendo essa parte de criar um <b>código
+feio</b>, que mostra onde vamos analisar as causas e soluções do projeto, avaliando os resultados que podem ser feitos
+que é como o fluxograma pode nos ajudar também. 
+
+<b>Testar Força Bruta</b> é um dos passos que deve ser entendido, onde colocamos a cabeça pra trabalhar e formar uma 
+coisa mais elaborada que seja nossa saída, padronizado de uma maneira muito explicita, que nos ajude a chegar ao 
+ultimo passo, que é <i>refatorar todo o processo</i>. 
+
+Assim a visibilidade do projeto fica melhor, mais visivel e bonita para ser vista por quem estamos trabalhando
+ou acompanhando ou até mesmo na entrega. 
+
+Então são:
+
+<b>Passo 1: Ter atenção no enunciado;
+Passo 2: Retirar informações no relevantes;
+Passo 3: Pensar entradas e saídas;
+Passo 4: Fazer um esquema visual;
+Passo 5: Criar código feio;
+Passo 6: Testar Força Bruta;
+Passo 7: Refatorar.</b>
+
