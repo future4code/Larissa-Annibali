@@ -77,8 +77,11 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-
+    const array1 = array.sort((a, b) => a - b)
+    return [array1[array1.length - 2], array1[1]]
 }
+
+
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
