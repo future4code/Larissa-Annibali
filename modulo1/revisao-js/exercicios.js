@@ -54,12 +54,25 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-
+    const arrayVazio = [];
+    for (let i = 0; arrayVazio.length < n; i++) {
+        if (i % 2 === 0) {
+            arrayVazio.push(i);
+        }
+    }
+    return arrayVazio
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
+    if (ladoA === ladoB && ladoB === ladoC) {
+        return "Equilátero"
+    } else if (ladoA === ladoB || ladoA === ladoC || ladoB === ladoC) {
+        return "Isósceles"
+    } else {
+        return "Escaleno"
 
+    }
 }
 
 // EXERCÍCIO 10
