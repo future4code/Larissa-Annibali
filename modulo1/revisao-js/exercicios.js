@@ -27,7 +27,8 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
- 
+    let numerosElevados = []
+    for (let i = 0; i < array.length; i +)
 }
 
 // EXERCÍCIO 06
