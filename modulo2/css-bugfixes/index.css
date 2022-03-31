@@ -1,0 +1,169 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid black;
+    }
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    background: rgb(255, 255, 255);
+    width: 50px;
+}
+
+.botao-amarelo {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.botao-amarelo:hover {
+    background-color: #c44f00;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+.icone {
+    height: 15px;
+    width: 15px;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+    padding-top: 40px;
+}
+
+#container-de-descricao>ol {
+    padding: 15px 0px;
+}
+
+#container-para-comprar {
+    text-align: center;
+    background-color: #e7eb90;
+}
+
+#container-para-comprar>p {
+    text-align: center;
+    display: block;
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+}
+
+li {
+    display: list-item;
+    list-style-position: inside;
+  }
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+td button {
+    text-align: center;
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+}
+
+td button:hover {
+    background-color: rgba(109, 94, 13, 0.521)
+}
+.container-do-search {
+    text-align: center;
+    margin-top: 20px;
+    height: 100px;
+
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+input:hover {
+    opacity: 50%;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 100px;
+    text-align: center;
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+}
+
+.back-button:hover {
+    text-align: center;
+    background-color: #66510b;
+}
