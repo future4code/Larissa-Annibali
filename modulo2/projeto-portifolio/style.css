@@ -1,4 +1,39 @@
+/*
+*  ESTILOS GERAIS 
+*/
+
 * {
-margin: 0;
-padding: 10px;
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
+header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*
+* Estilização index
+*/
+
+.botao-inicio {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+}
+
+
+/*
+* Estilização contatos
+*/
+
+/*
+* Estilização projetos
+*/
