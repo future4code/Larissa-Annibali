@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-auto-rows: 10px 1fr 10px;
+    grid-template-columns: 250px 1fr;
+}
+
+.cabecalho {
+    background-color: chocolate;
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+    grid-column: 1/-1;
+}
+
+.botao1 {
+    background-color: white;
+    text-decoration: black;
+    font-family: 'Quicksand';
+    text-align: left;
+    display: flex;
+    box-shadow: none;
+    justify-content: left;
+    padding: 5px 35px;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+    justify-content: left;
+    row-gap: 1px;
+    column-gap: 1px;
+}
+
+main .tvs {
+    width: 200px;
+    height: 150px;
+}
+
+main .cellphone {
+    width: 200px;
+    height: 150px;
+}
+
+main .computer {
+    width: 200px;
+    height: 150px;
+}
+
+main .codes {
+    width: 200px;
+    height: 150px;
+}
+
+main .tech {
+    width: 200px;
+    height: 150px;
+}
+
+main .communication {
+    width: 200px;
+    height: 150px;
+}
+
+main .misc {
+    width: 200px;
+    height: 150px;
+}
+
+main .world {
+    width: 200px;
+    height: 150px;
+}
+
+main .card {
+    box-shadow: 2px 2px 5px darkgray;
+    font-family: 'Quicksand';
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.rodape {
+    background-color: rgb(253, 171, 141);
+    height: 60px;
+    width: 100vw;
+    font-family: 'Quicksand';
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/-1;
+
+}
+
+
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+    padding-left: 700px;
+}
+
+.text1 {
+    align-items: center;
+    font-family: 'Quicksand';
+    justify-self: center
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+    padding-left: 700px;
+}
+
+.text2 {
+    align-items: center;
+    font-family: 'Quicksand';
+    justify-self: center
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+    padding-left: 700px;
+}
+
+.text3 {
+    align-items: center;
+    font-family: 'Quicksand';
+    justify-self: center
+}
+
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+    padding-left: 700px;
+}
+
+.text4 {
+    align-items: center;
+    font-family: 'Quicksand';
+    justify-self: center
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+    padding-left: 700px;
+}
+
+.text5 {
+    align-items: center;
+    font-family: 'Quicksand';
+    justify-self: center
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+    padding-left: 700px;
+}
+
+.text6 {
+    align-items: center;
+    font-family: 'Quicksand';
+    justify-self: center
+}
+
+
+.container7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+    padding-left: 700px;
+}
+
+.text7 {
+    align-items: center;
+    font-family: 'Quicksand';
+    justify-self: center
+}
+
+.container8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: inline-end;
+    padding-left: 700px;
+}
+
+.text8 {
+    align-items: center;
+    font-family: 'Quicksand';
+    justify-self: center
+}
+    
+    
