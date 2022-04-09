@@ -237,4 +237,38 @@ main .card {
 
 }
 
-    
+@media screen and (min-device-width: 360px) and (max-device-width: 538px){
+    .cabecalho {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+
+
+    }
+   }    
+
+   @media screen and (min-device-width: 360px) and (max-device-width: 538px){
+    .card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+
+
+    }
+   }    
+
+   @media screen and (min-device-width: 360px) and (max-device-width: 538px){
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+
+
+    }
+   }    
