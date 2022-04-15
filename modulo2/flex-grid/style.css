@@ -22,7 +22,8 @@ nav {
     background-color: #f2d0e0;
     display: inline-flex;
     flex-direction: column;
-    height: 500px;
+    float: left;
+    height: 590px;
 }
 
 
@@ -31,9 +32,8 @@ nav {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column: 1/4;
     height: 450px;
-    padding: 100px;
+    padding: 70px;
     box-shadow: darkgrey;
 }
 

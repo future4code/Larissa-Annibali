@@ -1,0 +1,152 @@
+/*
+*  ESTILOS GERAIS 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+* {
+    margin: 1px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #7ac8cc 16.62%, #2a6569 85.61%);
+}
+
+.inicio {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+header {
+    margin-bottom: 40px;
+    border-top: 0.4px solid cornsilk;
+}
+
+.tamanho-imagem {
+    height: 150px;
+    width: 150px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.itens-menu {
+    font-family: 'Sarala', sans-serif;
+    align-items: center;
+    color: aliceblue;
+}
+
+
+
+.conteudo {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+}
+
+.outros {
+    display: flex;
+    flex-direction: space-around;
+}
+
+.conteudo-principal {
+    font-family: 'Sarala', sans-serif;
+}
+
+.conteudo-descritivo1 {
+    font-family: 'Sarala', sans-serif;
+}
+
+.conteudo-descritivo2 {
+    font-family: 'Sarala', sans-serif;
+}
+
+.conteudo-descritivo3 {
+    font-family: 'Sarala', sans-serif;
+}
+
+
+/*
+* Estilização contatos
+*/
+
+footer {
+    align-items: center;
+    height: 250px;
+    padding: 50px;
+    padding-left: 400px;
+}
+
+.imagens-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rodape {
+    font-family: 'Sarala', sans-serif;
+    align-items: center;
+}
+
+
+/*
+* Estilização projetos
+*/
+
+.organização-projetos {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.habilidades-descritivas {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape2 {
+    padding-left: 400px;
+}
+
+
+/*
+* Estilização habilidades
+*/
+form {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.habilidades-descritas {
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-button {
+    background-color: rgb(80, 206, 228);
+    font-family: 'Sarala', sans-serif;
+    border-radius: 5px;
+    border-color: none;
+}
