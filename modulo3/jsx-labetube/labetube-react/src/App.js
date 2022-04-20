@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+/*import logo from './logo.svg';*/
 import './App.css';
 
 function App() {
-  function App() {
     
     const titulo = "Titulo do vídeo"
     
@@ -74,6 +73,6 @@ function App() {
       </div>
     </div>
   );
-  }
+
 }
 export default App;
