@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Whatslab from './Componentes/Whatslab';
+import Whatslab from './Components/Whatslab';
 
 const MainContainer = styled.div`
   display: flex;
@@ -22,4 +22,4 @@ class App extends React.Component {
   }
 }
 
-export default App; 
+export default App;
